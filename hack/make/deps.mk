@@ -10,11 +10,11 @@ GOLANGCI_SUM_amd64=8df580d2670fed8fa984aac0507099af8df275e665215f5c7a2ae3943893a
 GOLANGCI_SUM_arm64=44cd40a8c76c86755375adfeea52cfd3533cb43d7bd647771e0ae065e166df3a
 
 # renovate: datasource=github-release-attachments depName=aquasecurity/kube-bench
-KUBE_BENCH_VERSION ?= v0.15.4
-# renovate: datasource=github-release-attachments depName=aquasecurity/kube-bench digestVersion=v0.15.4
-KUBE_BENCH_SUM_arm64 ?= 58504862a53ccf56c416484ce9f0fa951b882b316efe32c4356de2ed6da62bc6
-# renovate: datasource=github-release-attachments depName=aquasecurity/kube-bench digestVersion=v0.15.4
-KUBE_BENCH_SUM_amd64 ?= 7ff96e2a5056e61a8f9aa6d0d64c9eb90e78968e67b66252b6f9ca4faea2d029
+KUBE_BENCH_VERSION ?= v0.15.6
+# renovate: datasource=github-release-attachments depName=aquasecurity/kube-bench digestVersion=v0.15.6
+KUBE_BENCH_SUM_arm64 ?= 69a3870f5ce3578429de8d5d771b7703a062eec64b8d7e6d014b15350fcb4a35
+# renovate: datasource=github-release-attachments depName=aquasecurity/kube-bench digestVersion=v0.15.6
+KUBE_BENCH_SUM_amd64 ?= 783882d23a13837ffd9d2a3dc713d86bed121802f51c93465f47add4dae9eb23
 # renovate: datasource=github-release-attachments depName=vmware-tanzu/sonobuoy
 SONOBUOY_VERSION ?= v0.57.3
 SONOBUOY_IMAGE ?= rancher/mirrored-sonobuoy-sonobuoy:$(SONOBUOY_VERSION)
